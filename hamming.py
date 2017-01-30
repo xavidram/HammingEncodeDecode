@@ -1,16 +1,15 @@
 """
 	Author: Xavid Ramirez
+	Email: xavid.ramirez01@utrgv.edu
 	Date: November 2, 2016
 	Desc: Hamming word encoding and decoding program. The python program
 		  Will take either a set of bits to encode or decode. Encode will
 		  encode the bits into Hamming Encoding. Decoding will check the 
 		  given bits, check the parities, fix parities if needed, return
 		  the correct word, and return the unencoded bit word. 
-	
 	Dependencies: Python 3
-
+	License: MIT
 """
-
 class Hamming:
 
 	def __init__(self):
